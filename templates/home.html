@@ -1,8 +1,8 @@
 {% extends "layout.html" %}
 
 {% block content %}
-<div>
-    <h3>This is a Flight Prices Prediction model based on Machine Learning</h3>
-    <a href="{{ url_for('predict') }}">Click Here!</a>
+<div style="text-align: center; width: 60%; padding: 2rem; background-color: rgba(255, 255, 255, 0.9); border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <h3>Welcome to the Flight Prices Prediction Model based on Machine Learning</h3>
+    <a href="{{ url_for('predict') }}" class="btn">Click Here to Predict</a>
 </div>
-{% endblock content %}
+{% endblock %}
